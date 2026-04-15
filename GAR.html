@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Lokasi Graha Alam Regency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            text-align: center; /* supaya judul & konten tengah */
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .project-image {
+            margin-bottom: 40px; /* jarak antar gambar */
+        }
+
+        .project-image img {
+            width: 80%;          /* supaya tidak full */
+            max-width: 500px;    /* batas maksimal */
+            height: auto;
+            object-fit: cover;
+            border-radius: 15px;
+            display: block;
+            margin: 0 auto;      /* supaya gambar tetap di tengah */
+        }
+
+        .map-container {
+            margin-top: 30px;
+        }
+
+        .map-container iframe {
+            width: 100%;          /* samakan dengan gambar */
+            max-width: 900px;
+            height: 400px;
+            border: 0;
+            border-radius: 15px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 25px;
+            background: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #333;
+        }
+
+        @media(max-width:768px){
+            .container {
+                margin: 20px;
+            }
+
+            .project-image img,
+            .map-container iframe {
+                width: 95%;
+            }
+        }
+
+/* TOMBOL KELUAR */
+
+        
+        .back-top-btn {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    width: 45px;
+    height: 45px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.back-top-btn:hover {
+    background: #007bff;   /* biru saat hover */
+    transform: translateX(-3px); /* sedikit geser kiri */
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.map-container {
+    margin-bottom: 30px;
+}
+
+.keunggulan {
+    margin-top: 50px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.keunggulan h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #222;
+}
+
+.keunggulan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.keunggulan ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* BATAS ANTARA HTML DAN CSS */
+
+    </style>
+</head>
+
+<body>
+
+<a href="index.html" class="back-top-btn">←</a>
+
+<h1>Graha Alam Regency</h1>
+
+<!-- Gambar Tambahan -->
+<div class="project-image">
+    <img src="pkaranganyar.jpeg" alt="Gambar Tambahan">
+</div>
+
+        <!-- KEUNGGULAN -->
+        <div class="keunggulan">
+            <h2>Keunggulan Graha Alam Regency</h2>
+
+           <ul>
+    <li>🏫 SMK Diponegoro – 4 menit</li>
+    <li>🏢 Pusat Kecamatan – 8 menit</li>
+    <li>🛒 Pasar Wonopringgo – 12 menit</li>
+    <li>🏥 Rumah Sakit Kajen – 8 menit</li>
+    <li>🌊 Danau Alkausar – 6 menit</li>
+    <li>🎓 UIN KH. Abdurrahman Wahid – 12 menit</li>
+    <li>🏙️ Alun-alun Kajen – 11 menit</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<!-- Gambar Utama -->
+
+<h2>Siteplan</h2>
+
+<div class="project-image">
+    <img src="siteplanGAR.jpeg" alt="Graha Alam Regency">
+</div>
+
+<h2>Lokasi</h2>
+
+<div class="map-container">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9625905459216!2d109.61155557392681!3d-7.013682568700416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e701f00718701d1%3A0xc99633544fbac126!2sGRAHA%20ALAM%20REGENCY!5e0!3m2!1sid!2sid!4v1769841602363!5m2!1sid!2sid"
+        allowfullscreen"
+        loading="lazy">
+    </iframe>
+</div>
+
+<footer>
+    <p>© 2026 PT. Berkah Mas Grup</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Graha Alam Regency</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        /* ===== NAVBAR BARU ===== */
+        .navbar-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background: #111;
+            color: white;
+        }
+
+        .navbar-detail h2 {
+            margin: 0;
+        }
+
+        .navbar-detail nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .navbar-detail nav a:hover {
+            color: #00c3ff;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .house-card {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .house-image img {
+            width: 100%;
+            display: block;
+        }
+
+        .house-info {
+            padding: 20px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .house-info h3 {
+            margin: 0 0 8px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .installment {
+            color: #333;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .bonus-section {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .bonus-box {
+            flex: 1;
+            border: 2px solid #333;
+            border-radius: 14px;
+            padding: 15px 18px;
+            background: #f9f6f1;
+        }
+
+        .bonus-box h4 {
+            margin: 0 0 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #7a6a3a;
+        }
+
+        .bonus-box ul {
+            padding-left: 18px;
+            margin: 0;
+        }
+
+        .bonus-box ul li {
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+
+        .map-container {
+            width: 80%;
+            max-width: 600px;
+            height: 450px;
+            margin: 0 auto 30px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar-detail">
+    <h2>PT. Berkah Mas Grup</h2>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="index.html">Proyek</a>
+    </nav>
+</header>
+
+<main>
+
+<div class="house-card">
+    <div class="house-image">
+        <img src="poster1.jpeg" alt="Graha Alam Regency">
+    </div>
+
+    <div class="house-info">
+
+        <h3>RUMAH - TYPE 30/60</h3>
+
+        <div class="features">
+            <span>📐 10 M²</span>
+            <span>🏠 45 M²</span>
+            <span>🛏 2</span>
+            <span>🛁 1</span>
+            <span>🌳 1</span>
+        </div>
+
+        <div class="bonus-section">
+            <div class="bonus-box">
+                <h4>FREE :</h4>
+                <ul>
+                    <li>Kanopi</li>
+                    <li>Carport</li>
+                    <li>Angsuran Bulan Pertama</li>
+                </ul>
+            </div>
+
+            <div class="bonus-box">
+                <h4>GRATIS BIAYA :</h4>
+                <ul>
+                    <li>Proses KPR</li>
+                    <li>Pajak BPHTB</li>
+                    <li>Balik Nama</li>
+                    <li>Gratis 1× Angsuran</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="installment">
+            Booking Hanya : <strong>IDR 25.000</strong>
+        </p>
+
+    </div>
+</div>
+
+<div class="map-container">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9625905459216!2d109.61155557392681!3d-7.013682568700416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e701f00718701d1%3A0xc99633544fbac126!2sGRAHA%20ALAM%20REGENCY!5e0!3m2!1sid!2sid!4v1769841602363!5m2!1sid!2sid"
+        allowfullscreen
+        loading="lazy">
+    </iframe>
+</div>
+
+<p>Gunakan zoom di pojok kanan bawah peta untuk memperbesar atau memperkecil lokasi.</p>
+
+</main>
+
+<footer>
+    <p>© 2026 PT. Berkah Mas Grup</p>
+</footer>
+
+</body>
+</html>
